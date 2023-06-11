@@ -9,7 +9,7 @@ export default function Home() {
         <Header />
       </div>
 
-      <div className="relative z-[2] bg-grayOne flex-1 rounded-[40px] py-5 container">
+      <div className="relative z-[2] bg-grayOne flex-1 rounded-t-[40px] rounded-tr-[40px] py-5 container">
         <VaultWidget />
       </div>
 
