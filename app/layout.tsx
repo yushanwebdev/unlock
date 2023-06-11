@@ -1,21 +1,21 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import { Outfit } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Unlock',
-  description: 'Highly secured password manager',
-}
+  title: "Unlock",
+  description: "Highly secured password manager",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={outfit.className}>{children}</body>
     </html>
-  )
+  );
 }

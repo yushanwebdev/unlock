@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply bg-gray-100;
-  }
+body {
+  @apply bg-grayOne;
+}
+
+.container {
+  @apply px-5;
+}
+
+.container-left {
+  @apply pl-5;
+}
+
+.primary-gradient {
+  background: linear-gradient(120.94deg, #f2167b 3.05%, #f86668 94.34%);
+}
+
+.primary-gradient-2 {
+  background: linear-gradient(180deg, #f42a7b 0%, rgba(255, 255, 255, 0) 100%);
 }
