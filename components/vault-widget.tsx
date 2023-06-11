@@ -1,7 +1,7 @@
 "use client";
 
-import PassRecord from "@/components/pass-record";
-import SearchInput from "@/app/list/search-input";
+import PassRecord from "./pass-record";
+import SearchInput from "./search-input";
 import useUnlockStore from "@/app/store";
 
 export default function VaultBlock() {

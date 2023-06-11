@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AppleLogo from "../app/logos/apple";
-import IconHeartGray from "../app/list/icon-heart-gray";
+import IconHeartGray from "./icon-heart-gray";
 import PassInStars from "./pass-in-stars";
 
 interface IPassRecordProps {
