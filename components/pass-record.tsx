@@ -23,7 +23,9 @@ export default function PassRecord({
       </div>
       <div className="pr-2">
         <h3 className="mb-1 break-all text-secondary-950">{name}</h3>
-        <p className="mb-1 text-xs text-secondary-950 opacity-70">{username}</p>
+        <p className="mb-1 text-xs break-all text-secondary-950 opacity-70">
+          {username}
+        </p>
         <div className="flex items-center gap-2 text-xs text-secondary-400">
           {isHide ? <PassInStars /> : password}
           <button onClick={() => setIsHide((prev) => !prev)}>

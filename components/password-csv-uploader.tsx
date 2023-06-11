@@ -9,7 +9,7 @@ export default function PasswordCSVUploader() {
   return (
     <input
       type="file"
-      className="absolute top-0 left-0 w-full h-full opacity-0"
+      className="absolute z-[1] top-0 left-0 w-full h-full opacity-0 overflow-hidden"
       onChange={(e) => {
         const file = e.target.files?.[0];
 
