@@ -2,31 +2,37 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': 20.3.0
+  '@types/papaparse': ^5.3.7
   '@types/react': 18.2.11
   '@types/react-dom': 18.2.4
   autoprefixer: 10.4.14
   eslint: 8.42.0
   eslint-config-next: 13.4.5
   next: 13.4.5
+  papaparse: ^5.4.1
   postcss: 8.4.24
   react: 18.2.0
   react-dom: 18.2.0
   tailwindcss: 3.3.2
   typescript: 5.1.3
+  zustand: ^4.3.8
 
 dependencies:
   '@types/node': 20.3.0
+  '@types/papaparse': 5.3.7
   '@types/react': 18.2.11
   '@types/react-dom': 18.2.4
   autoprefixer: 10.4.14_postcss@8.4.24
   eslint: 8.42.0
   eslint-config-next: 13.4.5_tizxnkcvjrb4cldxgwq5h3lj5u
   next: 13.4.5_biqbaboplfbrettd7655fr4n2y
+  papaparse: 5.4.1
   postcss: 8.4.24
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   tailwindcss: 3.3.2
   typescript: 5.1.3
+  zustand: 4.3.8_react@18.2.0
 
 packages:
 
@@ -273,6 +279,12 @@ packages:
 
   /@types/node/20.3.0:
     resolution: {integrity: sha512-cumHmIAf6On83X7yP+LrsEyUOf/YlociZelmpRYaGFydoaPdxdt80MAbu6vWerQT2COCp2nPvHdsbD7tHn/YlQ==}
+    dev: false
+
+  /@types/papaparse/5.3.7:
+    resolution: {integrity: sha512-f2HKmlnPdCvS0WI33WtCs5GD7X1cxzzS/aduaxSu3I7TbhWlENjSPs6z5TaB9K0J+BH1jbmqTaM+ja5puis4wg==}
+    dependencies:
+      '@types/node': 20.3.0
     dev: false
 
   /@types/prop-types/15.7.5:
@@ -2048,6 +2060,10 @@ packages:
       p-limit: 3.1.0
     dev: false
 
+  /papaparse/5.4.1:
+    resolution: {integrity: sha512-HipMsgJkZu8br23pW15uvo6sib6wne/4woLZPlFf3rpDyMe9ywEXUsuD7+6K9PRkJlVT51j/sCOYDKGGS3ZJrw==}
+    dev: false
+
   /parent-module/1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
@@ -2651,6 +2667,14 @@ packages:
       punycode: 2.3.0
     dev: false
 
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
@@ -2727,4 +2751,20 @@ packages:
 
   /zod/3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
+
+  /zustand/4.3.8_react@18.2.0:
+    resolution: {integrity: sha512-4h28KCkHg5ii/wcFFJ5Fp+k1J3gJoasaIbppdgZFO4BPJnsNxL0mQXBSFgOgAdCdBj35aDTPvdAJReTMntFPGg==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      immer: '>=9.0'
+      react: '>=16.8'
+    peerDependenciesMeta:
+      immer:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false

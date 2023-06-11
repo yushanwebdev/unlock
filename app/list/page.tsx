@@ -1,5 +1,5 @@
 import BackArrowBtn from "./back-arrow-btn";
-import PassRecord from "./pass-record";
+import PassRecord from "../../components/pass-record";
 import SearchInput from "./search-input";
 
 export default function List() {

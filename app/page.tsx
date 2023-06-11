@@ -1,5 +1,5 @@
 import Header from "@/components/header";
-import VaultBlock from "@/components/vault-block";
+import VaultWidget from "@/components/vault-widget";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
       </div>
 
       <div className="relative z-[2] bg-grayOne flex-1 rounded-[40px] py-5 container">
-        <VaultBlock />
+        <VaultWidget />
       </div>
 
       {/* Home Background */}
